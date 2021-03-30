@@ -1,6 +1,5 @@
-import path from 'path'
-import webpack from 'webpack'
-
+const path = require('path')
+const webpack = require('webpack')
 const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
@@ -26,4 +25,4 @@ const config = {
     }
 }
 
-export default config
+module.exports = config
