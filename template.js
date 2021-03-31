@@ -1,6 +1,6 @@
-export default () => (
-    `<!doctype html>
-    <html lang="en">
+export default () => (`
+    <!doctype html>
+    <html lang="ru">
         <head>
             <meta charset="UTF-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -11,5 +11,5 @@ export default () => (
             <div id="root"></div>
             <script type="text/javascript" src="/dist/bundle.js"></script>
         </body>
-    </html>`
-)
+    </html>
+`)
